@@ -1,5 +1,5 @@
 """
--> 2300. Successful Pairs of Spells and Potions?
+-> Successful Pairs of Spells and Potions?
 
 You are given two positive integer arrays spells and potions, of length n and m respectively, where spells[i] represents the strength of the ith spell and potions[j] represents the strength of the jth potion.
 
@@ -8,7 +8,7 @@ You are also given an integer success. A spell and potion pair is considered suc
 Return an integer array pairs of length n where pairs[i] is the number of potions that will form a successful pair with the ith spell.
 """
 
-class SOlution:
+class Solution:
     def successfulPairs(self, spells: list[int], potions: list[int], success: int) -> list[int]:
         
         potions.sort()
