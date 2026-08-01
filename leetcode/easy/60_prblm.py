@@ -12,7 +12,6 @@ can keep doing this until the string becomes good.
 
 Return the string after making it good. The answer is guaranteed to be unique under tha given constraints.
 Notice: that an empty string is also good.
-
 """
 
 class Solution:
@@ -29,5 +28,5 @@ class Solution:
         return "".join(stack)
 
 obj = Solution()
-s = "leEeetcode"
+s = "leEeetcode" 
 print(obj.makeGood(s))
