@@ -11,9 +11,6 @@ and so on.
 Return an mxn 2D array constructed according to the above procedure, or an empty 2D array if it is impossible.
 """
 
-from pyparsing import original_text_for
-
-
 class Solution:
     def construct2DArray(self, original: list[int], m: int, n: int)-> list[list[int]]:
         if len(original) != m*n:
