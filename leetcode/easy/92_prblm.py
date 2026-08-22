@@ -12,9 +12,6 @@ appear first.
 """
 
 import heapq
-from re import I
-
-from pyparsing import nums
 
 class Solution:
     def getFinalState(self, nums: list[int], k: int, multiplier: int) -> list[int]:
