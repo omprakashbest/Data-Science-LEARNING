@@ -43,11 +43,11 @@ class Trie:
 class Solution:
 
     def countPrefixSuffixPairs(self, words: list[str]) -> int:
-        trie = Trie()
         res = 0
+        root = Trie()
 
-        for word in words:
-            res += trie.count(word)
-            trie.add(word)
+        for w in reversed(words):
+            res += root.count(w)
+            root.add(w)
 
         return res
